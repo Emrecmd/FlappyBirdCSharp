@@ -31,7 +31,7 @@
             // 
             // flappyBird
             // 
-            this.flappyBird.BackColor = System.Drawing.Color.SkyBlue;
+            this.flappyBird.BackColor = System.Drawing.Color.Transparent;
             this.flappyBird.Image = ((System.Drawing.Image)(resources.GetObject("flappyBird.Image")));
             this.flappyBird.Location = new System.Drawing.Point(119, 147);
             this.flappyBird.Name = "flappyBird";
@@ -39,6 +39,7 @@
             this.flappyBird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.flappyBird.TabIndex = 0;
             this.flappyBird.TabStop = false;
+            this.flappyBird.Click += new System.EventHandler(this.flappyBird_Click);
             // 
             // gameTimer
             // 

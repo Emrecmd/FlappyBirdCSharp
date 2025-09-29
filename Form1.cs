@@ -70,5 +70,10 @@ namespace FlappyBird
                 birdVelocity = jump; // space basınca yukarı zıplat
             }
         }
+
+        private void flappyBird_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
